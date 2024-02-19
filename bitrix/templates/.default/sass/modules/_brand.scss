@@ -1,0 +1,9 @@
+.brand-carousel-wrapper {
+	padding: 45px 0 70px;
+	.container {max-width: 1000px;}
+	.brand-carousel {text-align: center;
+		i {font-size: 120px;color: #B8B9C5;transition: all .4s ease;
+			&:hover {color: #26274C;}
+		}
+	}
+}

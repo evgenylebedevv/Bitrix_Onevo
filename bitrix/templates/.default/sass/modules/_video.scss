@@ -1,0 +1,33 @@
+.video-box-style-one {
+    background: #000 url(../img/video-bg-1.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 100px 0 110px;
+    .tag-line {
+        color: #FFFFFF;
+        font-size: 20px;
+        &:before {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            width: 38px;
+            height: 2px;
+            background: #FFFFFF;
+            margin-right: 15px;
+        }
+    }
+    h3 {
+        margin: 0;
+        color: #FFFFFF;
+        font-size: 47px;
+        line-height: 55px;
+        font-weight: normal;
+        margin-top: 15px;
+        margin-bottom: 55px;
+    }
+    a.video-popup {
+        color: #fff;
+        font-size: 60px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}

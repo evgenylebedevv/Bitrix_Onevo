@@ -1,0 +1,33 @@
+#home-page-one-google-map {width: 100%;height: 400px;}
+
+.contact-style-one {
+	padding-bottom: 125px;
+	.container {max-width: 970px;}
+	.contact-content {
+		padding-top: 60px;
+		h3, p {margin: 0;}
+		h3 {font-size: 28px;color: #2C3035;	margin-bottom: 20px;}
+	}
+	p {font-size: 16px;line-height: 29px;color: #808891;}
+	.contact-info {
+		margin-bottom: 15px;
+		p {font-size: 22px;color: #808891;line-height: 30px;
+			span {color: #2C3035;}
+		}
+	}
+	.contact-form {
+		input, textarea {border: none;outline: none;background-color: #F1F1F1;border: 1px solid #E5E5E5;border-radius: 3px;width: 100%;display: block;height: 48px;color: #808891;font-size: 13px;margin-bottom: 10px;padding-left: 20px;
+			@include placeholder {color: #808891;}
+			&.error {
+				background:rgba(red, .4);
+			}
+		}
+		label.error {display: none !important;}
+		textarea {height: 99px;padding-top: 10px;}
+		button[type=submit] {border: none;outline: none;background:#3396EC;height: 48px;border-radius: 3px;color: #FFFFFF;font-size: 16px;line-height: 48px;text-align: center;width: 100%;transition: all .4s ease;
+			&:hover {
+				background:darken(#3396EC, 10%);
+			}
+		}
+	}
+}

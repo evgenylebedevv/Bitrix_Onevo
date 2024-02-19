@@ -1,0 +1,73 @@
+.hidden-sidebar {
+    position: fixed;
+    top: 0;
+    right: -270px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    max-width: 270px;
+    background: #222223;
+    overflow: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+    transition: transform .5s ease;
+    box-shadow: drop-shadow-converter(#212121, $angle: 90, $distance: 7px, $spread: 0, $size: 15px, $opacity: 36%);
+}
+
+.hidden-sidebar.open {
+    transform: translate3d(-270px, 0, 0);
+}
+
+.hidden-sidebar a.close-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.hidden-sidebar .sidebar-content {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    .navigation-box {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-top: 180px;
+        margin-bottom: 150px;
+
+        li {
+            a {color: #FFFFFF;font-size: 16px;transition: all .4s ease;display: block;
+                &:hover {color: #3396EC;}
+            }
+            &.current {
+                a {color: #3396EC;}
+            }
+            + li {
+                margin-top: 20px;
+            }
+            .subnav-toggler {background-color: transparent;border: none;outline: none;color: #fff;font-size: 20px;padding: 0;margin-left: 10px;line-height: 1em;display: inline-block;vertical-align: middle;}
+            ul.sub-menu {
+                margin: 0;padding: 0;list-style: none;
+                display: none;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                li {
+                    a {color: #FFFFFF;font-size: 16px;transition: all .4s ease;display: block;padding-left: 15px;}
+                }
+            }
+        }
+    }
+    .social {
+        margin-bottom: 20px;
+        a {display: inline-block;vertical-align: middle;color: #FFFFFF;font-size: 16px;line-height: 33px;transition: all .4s ease;border-radius: 50%;
+            &:hover {color: #3196EE;}
+            + a {margin-left: 10px;}
+        }
+    }
+    p.copy-text {margin: 0;color: #ECECEC;font-size: 15px;
+        i.fa-heart {color: #79CE1C;}
+    }
+    
+}

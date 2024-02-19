@@ -1,0 +1,157 @@
+body {
+    font-family: 'Heebo';
+    color: #808891;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+a:hover,
+a:visited,
+a:focus,
+a:active {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: inherit;
+    font-style: normal;
+    line-height: inherit;
+    margin-left: 0px;
+    color: inherit;
+}
+
+.container {
+    transition: none;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.light-dark-bg {
+    background:#222223;
+}
+.dark-bg {
+    background:#000000;
+}
+
+.sec-pad {
+    padding: 125px 0 120px;
+}
+
+.p0 {
+    padding: 0 !important;
+}
+
+.pt0 {
+    padding-top: 0;
+}
+
+.pb0 {
+    padding-bottom: 0 !important;
+}
+
+.mb0 {
+    margin-bottom: 0 !important;
+}
+
+.sec-title {
+    margin-top: -5px;
+    margin-bottom: 60px;
+    h3 {margin: 0;font-size: 47px;line-height: 55px;color: #2C3035;font-weight: normal;}
+    span {color: #3396EC;font-size: 20px;
+        + h3 {margin-top: 13px;}
+    }
+    p {margin: 0;font-size: 18px;color: #808891;margin-top: 27px;}
+    &.light {
+        h3 {color: #FFFFFF;}
+        p {color: #E6E8E9;}
+    }
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #242C33;
+    color: #fff;
+    font-size: 17px;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    box-shadow: drop-shadow-converter(#000000, $angle: 90, $distance: 23px, $spread: 0, $size: 42px, $opacity: 20%);
+    transition: all .4s ease;
+    &:hover {
+        background: #147DD8;
+        color: #fff;
+    }
+}
+
+
+
+
+/*
+****
+only add this class to body
+if preloader is on
+other wise REMOVE IT.
+****
+*/
+
+body.active-preloader-ovh {
+    overflow: hidden;
+}
+
+.preloader {
+    background-color: #3396EC;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999;
+    .spinner {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -30px;
+        margin-left: -30px;
+        background-color: #fff;
+        border-radius: 100%;
+        -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+        animation: sk-scaleout 1.0s infinite ease-in-out;
+    }
+
+    @-webkit-keyframes sk-scaleout {
+        0% {
+            -webkit-transform: scale(0)
+        }
+        100% {
+            -webkit-transform: scale(1.0);
+            opacity: 0;
+        }
+    }
+    @keyframes sk-scaleout {
+        0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+        }
+        100% {
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+            opacity: 0;
+        }
+    }
+}

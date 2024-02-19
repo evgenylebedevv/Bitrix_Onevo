@@ -1,0 +1,192 @@
+/***************************************************************************************************************
+||||||||||||||||||||||||||||||       MASTER STYLESHEET FOR onevo             |||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+****************************************************************************************************************
+* 1. imported styles 
+* 2. miscelnious styles 
+* 3. header styles 
+* 4. banner styles 
+* 5. footer styles 
+* 6. contact styles 
+* 7. brand styles 
+* 8. testimonials styles 
+* 9. blog styles 
+* 10. video styles 
+* 11. pricing styles 
+* 12. funfact styles 
+* 13. features styles 
+* 14. portfolio styles 
+* 15. team styles 
+* 16. service styles 
+* 17. about styles 
+* 18. hidden sidebar styles 
+* 19. parallax styles 
+* 20. video header styles 
+* 21. inner title styles 
+* 22. sidebar styles 
+* 23. home page two styles 
+* 24. home page three styles 
+* 25. home page four styles 
+****************************************************************************************************************
+||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************/
+
+
+// math functions are not included in sass
+@import "drop-shadow-converter/mathfunctions";
+// import converter
+@import "drop-shadow-converter/drop-shadow-converter";
+// template sass helper functions
+@import "_helper-function.scss";
+
+/************************** 
+* 1. imported styles 
+***************************/
+
+@import 'modules/_imported';
+
+/************************** 
+* 2. miscelnious styles 
+***************************/
+
+@import 'modules/_miscelnious';
+
+/************************** 
+* 3. header styles 
+***************************/
+
+@import 'modules/_header';
+
+/************************** 
+* 4. banner styles 
+***************************/
+
+@import 'modules/_banner';
+
+/************************** 
+* 5. footer styles 
+***************************/
+
+@import 'modules/_footer';
+
+/************************** 
+* 6. contact styles 
+***************************/
+
+@import 'modules/_contact';
+
+/************************** 
+* 7. brand styles 
+***************************/
+
+@import 'modules/_brand';
+
+/************************** 
+* 8. testimonials styles 
+***************************/
+
+@import 'modules/_testimonials';
+
+/************************** 
+* 9. blog styles 
+***************************/
+
+@import 'modules/_blog';
+
+/************************** 
+* 10. video styles 
+***************************/
+
+@import 'modules/_video';
+
+/************************** 
+* 11. pricing styles 
+***************************/
+
+@import 'modules/_pricing';
+
+/************************** 
+* 12. funfact styles 
+***************************/
+
+@import 'modules/_funfact';
+
+/************************** 
+* 13. features styles 
+***************************/
+
+@import 'modules/_features';
+
+/************************** 
+* 14. portfolio styles 
+***************************/
+
+@import 'modules/_portfolio';
+
+/************************** 
+* 15. team styles 
+***************************/
+
+@import 'modules/_team';
+
+/************************** 
+* 16. service styles 
+***************************/
+
+@import 'modules/_service';
+
+/************************** 
+* 17. about styles 
+***************************/
+
+@import 'modules/_about';
+
+/************************** 
+* 18. hidden sidebar styles 
+***************************/
+
+@import 'modules/_hidden-sidebar';
+
+/************************** 
+* 19. parallax styles 
+***************************/
+
+@import 'modules/_parallax';
+
+/************************** 
+* 20. video header styles 
+***************************/
+
+@import 'modules/_video-header';
+
+/************************** 
+* 21. inner title styles 
+***************************/
+
+@import 'modules/_inner-title';
+
+/************************** 
+* 22. sidebar styles 
+***************************/
+
+@import 'modules/_sidebar';
+
+/************************** 
+* 23. home page two styles 
+***************************/
+
+@import 'modules/_home-page-two';
+
+/************************** 
+* 24. home page three styles 
+***************************/
+
+@import 'modules/_home-page-three';
+
+/************************** 
+* 25. home page four styles 
+***************************/
+
+@import 'modules/_home-page-four';

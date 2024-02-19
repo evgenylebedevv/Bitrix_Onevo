@@ -1,0 +1,62 @@
+.funfact-style-one {
+	background: #fff url(../img/fun-fact-bg.jpg) right center no-repeat;
+	background-size: cover;
+	@media (max-width: 1366px) {background-position: 55% center;}
+	span.tag-line {
+		color: #3396EC;
+		font-size: 20px;
+		&:before {
+			content: '';
+			display: inline-block;
+			vertical-align: middle;
+			width: 38px;
+			height: 2px;
+			background:#3396EC;
+			margin-right: 15px;
+		}
+	}
+	h3 {margin: 0;color: #2C3035;font-size: 47px;line-height: 55px;font-weight: normal;margin-top: 10px;margin-bottom: 70px;}
+	.single-fun-fact {
+		display: inline-block;
+		vertical-align: middle;
+		+ .single-fun-fact {margin-left: 50px;}
+		.icon-box, .text-box {display: table-cell;vertical-align: middle;}
+		.icon-box {
+			i {font-size: 52px;color: #3b9bee;}
+		}
+		.text-box {
+			padding-left: 40px;
+			h3 {margin: 0;color: #2C3035;font-size: 28px;font-weight: normal;line-height: 1em;margin-bottom: 7px;}
+			p {margin: 0;color: #808891;font-size: 18px;}
+		}
+	}
+}
+
+.fun-fact-style-two {
+	.fun-fact-wrapper {
+		.single-fun-fact-style-two{
+			+ .single-fun-fact-style-two{
+				margin-left: 110px;
+			}
+			display: inline-block;
+			vertical-align: middle;
+			text-align: left;
+			.icon-box, .text-box {display: inline-block;vertical-align: middle;}
+			.icon-box {
+				i {color: #7bcf0c;font-size: 64px;line-height: 1em;display: block;}
+			}
+			.text-box {
+				padding-left: 30px;
+				h3, p {margin: 0;}
+				h3 {font-size: 28px;color: #FFFFFF;margin-bottom: 5px;font-weight: normal;}
+				p {font-size: 18px;color: #E6E8E9;}
+			}
+			&:nth-child(2) {
+				.icon-box i {color: #1bcad2;}
+			}
+			&:nth-child(3) {
+				.icon-box i {color: #3b9bee;}
+			}
+		}
+	}
+}

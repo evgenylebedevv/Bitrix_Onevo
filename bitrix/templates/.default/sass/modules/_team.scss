@@ -1,0 +1,150 @@
+.team-style-one {
+	overflow: hidden;
+	.team-member-img-box {
+		background:#333335;
+		margin-bottom: 60px;
+		padding: 30px 0;
+		.team-pager {text-align: center;
+			.pager-item {
+				width: 20%;
+				float: left;
+				.team-thumb {display: inline-block;vertical-align: middle;transition: all .4s ease;
+					> img {width: 100%;transition: all .4s ease;transform: scale(.8);border: 4px solid transparent;border-radius: 50%;}
+				}
+				&.active {
+					.team-thumb > img {transform: scale(1);border-color: #1acad1;}	
+				}
+			}
+		}
+	}
+	.team-member-content-box {
+		.container {max-width: 470px;background:#333335;border-radius: 20px;
+			.slide-text {
+				padding: 55px 0;
+				text-align: center;
+				padding-left: 60px;
+				padding-right: 60px;
+				h4,p {margin: 0;}
+				h4 {font-size: 28px;color: #FFFFFF;font-weight: normal;}
+				span {color: #3396EC;font-size: 18px;font-weight: normal;}
+				.progress-box {margin-top: 30px;}
+				.single-progress {
+					+ .single-progress {margin-top: 20px;}
+					.top {
+						margin-bottom: 14px;
+						h4 {margin: 0;float: left;color: #FFFFFF;font-size: 16px;line-height: 23px;}
+						span {float: right;color: #2C3035;font-size: 14px;background:#FFFFFF;line-height: 1em;text-align: center;border-radius: 3px;padding: 4.5px 9px;
+							b {font-weight: inherit;}
+						}
+					}
+					.progress-scale {background:#FFFFFF;width: 100%;height: 10px;border-radius: 5px;position: relative;overflow: hidden;
+						.inner {position: absolute;top:0;left: 0;height: 100%;border-radius: 5px;animation-duration: 2s;}
+					}
+				}
+
+				.social {
+					margin-top: 50px;
+					a {color: #D0D0D0;font-size: 22px;
+						+ a {margin-left: 16px;}
+					}
+				}
+			}
+		}
+		.bx-wrapper {border: none;box-shadow: none;background-color: transparent;margin-bottom: 0;}
+		.bx-wrapper .bx-controls-direction a {width: 48px;height: 56px;margin-top: -24px;z-index: 99;}
+		.bx-wrapper .bx-prev {background: transparent url(../img/team-1-left.png) 0 0 no-repeat;left: -121px;}
+		.bx-wrapper .bx-next {background: transparent url(../img/team-1-right.png) 0 0 no-repeat;right: -121px;}
+	}
+}
+
+
+.single-team-style-two {
+	.img-box {
+		position: relative;
+		> img {width: 100%;}
+		.arrow-pointer {
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%) rotate(180deg);
+			width: 49px;
+			height: 49px;
+			background:#79CE1C;
+			text-align: center;
+			border-radius: 50%;
+			line-height: 49px;
+			z-index: 10;
+			transition: all .4s ease;
+			i {color: #fff;font-size: 20px;}
+		}
+		.overlay {
+			position: absolute;
+			bottom: 45px;
+			width: 100%;
+			left: 0;
+			background:#2C3035;
+			z-index: 9;
+			transform: translateY(-20px);
+			transition: all .4s ease;
+			opacity: 0;
+			.box {
+				.content {
+					position: relative;
+					padding-left: 20px;
+					padding-bottom: 35px;
+					padding-top: 30px;
+					h3 {color: #FFFFFF;margin: 0;font-size: 22px;font-weight: normal;line-height: 1em;}
+					p {color: #19CAD0;margin: 0;font-size: 16px;line-height: 1em;margin-top: 14px;}
+					.social { 
+						position: absolute;
+						top:30px;
+						right: 20px;text-align: center;
+						a {display: block;color: #fff;transition: all .4s ease;font-size: 14px;transition: all .4s ease;
+							+ a {margin-top: 10px;}
+							&:hover {color: #1ACBD1;}
+						}
+					}
+				}
+			}
+		}
+		&:hover {
+			.arrow-pointer {transform: translateX(-50%) rotate(0deg);}
+			.overlay {
+				opacity: 1;
+				transform: translateY(0px);
+			}
+		}
+	}
+}
+
+.team-style-three {
+	.single-team-style-three {
+		.img-box {
+			height: 300px;
+			transition: all .4s ease;
+			> img {width: 100%;transition: all .4s ease;transform: translateY(0px);}
+			&:hover {
+				> img {transform: translateY(-57px);}
+			}
+		}
+		.text-box {
+			background:#000000;
+			text-align: center;
+			position: relative;
+			z-index: 9;
+			padding-top: 45px;
+			h3 {margin: 0;font-size: 22px;color: #FFFFFF;font-weight: normal;line-height: 1em;margin-bottom: 7px;}
+			span {color: #E6E8E9;font-size: 18px;line-height: 1em;}
+			.social {
+				margin-top: 15px;
+				a {
+					color: #DEDEDE;
+					font-size: 22px;
+					transition: all .4s ease;
+					+ a {margin-left: 10px;}
+					&:hover {color: #319CE9;}
+				}
+			}
+		}
+	}
+}

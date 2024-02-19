@@ -1,0 +1,182 @@
+.single-testimonials-style-one {
+    text-align: center;
+    .img-box {
+        margin-left: auto;
+        margin-right: auto;
+        width: 175px;
+        border: 3px solid #FFFFFF;
+        border-radius: 50%;
+        .inner {
+            border-radius: 50%;
+            border: 1px solid #3B9AED;
+            img {
+                width: 100%;
+                border-radius: 50%;
+                border: 3px solid #FFFFFF;
+            }
+        }
+    }
+    p {
+        font-size: 18px;
+        line-height: 36px;
+        color: #E5E1E1;
+        margin: 0;
+        margin-top: 50px;
+    }
+    h3 {
+        margin: 0;
+        color: #FFFFFF;
+        font-weight: normal;
+        font-size: 28px;
+        margin-top: 25px;
+        margin-bottom: 7px;
+    }
+    span {
+        color: #1AC9D0;
+        font-size: 18px;
+    }
+}
+
+.testimonials-title {
+    margin-bottom: 0px;
+}
+
+.testimonials-carousel-wrapper {
+    position: relative;
+    margin-bottom: 80px;
+    .overlay {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: calc( 100% - 30px);
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    .owl-theme .owl-dots {
+        margin-top: 30px;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        width: 10px;
+        height: 10px;
+        margin: 5px;
+        background: #3396EC;
+    }
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+        background: #FFFFFF;
+    }
+}
+
+.single-testimonial-style-two {
+    .inner {
+    	background:#222223;
+        position: relative;
+        z-index: 999;
+    }
+    p {
+        position: relative;
+        color: #E6E8E9;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0;
+        i.fas {
+            color: #1bcad2;
+            font-size: 17px;
+            position: absolute;
+        }
+        i.fa-quote-left {
+            top: 0;
+            left: 0;
+        }
+        i.fa-quote-right {
+            bottom: 0;
+            right: 0;
+        }
+    }
+    .client-info-box {
+        margin-top: 30px;
+        .img-box,
+        .text-box {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .img-box {
+            width: 90px;
+            >img {
+                width: 100%;
+                border-radius: 50%;
+                border: 5px solid #FFFFFF;
+            }
+        }
+        .text-box {
+            padding-left: 35px;
+            h3 {
+                margin: 0;
+                color: #FFFFFF;
+                font-size: 22px;
+                font-weight: normal;
+            }
+            p {
+                margin: 0;
+                color: #3299EA;
+                font-size: 16px;
+                padding: 0;
+            }
+        }
+    }
+}
+
+.testimonials-style-two-carousel {
+    .owl-stage-outer {
+        &:before,
+        &:after {
+            content: '';
+            width: 1px;
+            height: calc( 100% - 0px);
+            position: absolute;
+            top: 0;
+            background: #403f3f;
+            z-index: -1;
+        }
+        &:before {
+            left: 31.83%;
+        }
+        &:after {
+            right: 31.83%;
+        }
+    }
+    .owl-dots {
+        margin-top: 60px;
+    }
+    .owl-dots .owl-dot span {
+        width: 10px;
+        height: 10px;
+        margin: 5px;
+        background: #3396EC;
+    }
+    .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+        background: #FFFFFF;
+    }
+    .owl-nav {
+        margin-top: 40px;
+    }
+    .owl-nav [class*="owl-"] {
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        color: #000;
+        font-size: 16px;
+        padding: 0;
+        border-radius: 50%;
+        line-height: 40px;
+        transition: all .4s ease;
+        &:hover {
+            background: #147DD8;
+            color: #fff;
+        }
+    }
+}

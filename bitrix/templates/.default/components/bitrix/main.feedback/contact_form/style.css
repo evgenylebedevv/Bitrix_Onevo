@@ -1,0 +1,19 @@
+
+
+.contact-style-one .contact-form input[type=submit] {
+    border: none;
+    outline: none;
+    background: #3396EC;
+    height: 48px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+    width: 100%;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.contact-style-one .contact-form input[type=submit]:hover {
+    background: #147dd8;
+}

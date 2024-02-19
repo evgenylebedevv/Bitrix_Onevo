@@ -1,0 +1,9 @@
+<?
+$PERM["index.php"]["8"]="W";
+$PERM["index.php_my-new-template-onevo"]["8"]="W";
+$PERM["about"]["8"]="U";
+$PERM["personal"]["8"]="W";
+$PERM["catalog"]["8"]="W";
+$PERM["news"]["8"]="W";
+$PERM["/"]["*"]="R";
+?>
